@@ -7,9 +7,9 @@ describe "dish" do
 		expect(dish.dish_names).not_to be_empty
 	end
 
-	it "has prices"
+	it "has prices" do
 		dish = Dish.new
-		expect(dish.dish_prices).not_to be empty
+		expect(dish.dish_prices).not_to be_empty
 	end
 
 

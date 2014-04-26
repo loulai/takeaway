@@ -8,6 +8,10 @@ class Dish
 		menu.keys
 	end
 
+	def dish_prices
+		menu.values
+	end
+
 end
 
 
