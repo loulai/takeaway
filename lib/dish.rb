@@ -12,8 +12,12 @@ class Dish
 		@list_prices = menu.values
 	end
 
-	def dish_name(index)
-		list_names[index - 1].to_s
+	def dish_name(human_index)
+		list_names[human_index - 1].to_s
+	end
+
+	def dish_price(human_index)
+		list_prices[human_index - 1]
 	end
 
 

@@ -23,6 +23,11 @@ describe "dish" do
 			expect(dish.dish_name(2)).to eq "burrito"
 		end
 
+		it "knows its own price" do
+			dish = Dish.new
+			expect(dish.dish_price(2)).to eq 6
+		end
+
 	end
 
 
