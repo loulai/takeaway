@@ -2,10 +2,12 @@ require "dish"
 
 describe "dish" do
 	
-	it "has a name" do
+	it "have a names" do
 		dish = Dish.new
-		expect(dish.names).to_not be_empty
+		expect(dish.dish_names).to_not be_empty
 	end
+
+	
 
 
 
