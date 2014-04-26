@@ -4,13 +4,19 @@ class Dish
 		@menu = {curry: 8, burrito: 6, salad: 4, juice: 2}
 	end
 
-	def dish_names
-		menu.keys
+	def list_names
+		@list_names = menu.keys
 	end
 
-	def dish_prices
-		menu.values
+	def list_prices
+		@list_prices = menu.values
 	end
+
+	def dish_name(index)
+		list_names[index - 1].to_s
+	end
+
+
 
 end
 
